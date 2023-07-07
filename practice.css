@@ -27,18 +27,45 @@ h1, h2, h3 {
   font-size: medium;
 }
 ol {
-  color:green;
+  color:rgb(55, 161, 55);
   text-align: left;
 }
 ul {
-  color:red ;
+  color:rgb(194, 117, 16);
 }
-.grid-container{
+.grid-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50%;
+  grid-gap: 10px; /* Add some gap between the grid items */
+}
+
+.grid-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
+  width: 100%;
   height: auto;
-  max-width: 70%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.grid-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+.dogfacts {
+  color: black;
+  font-size: x-large;
 }
