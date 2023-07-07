@@ -1,0 +1,44 @@
+* {
+  background-color: bisque;
+  padding: 5px 10px 10px 5px;
+  box-sizing: border-box;
+}
+
+.img1 {
+  max-width: 60%;
+  height: auto;
+  border-radius: 40%;
+  border: 8px solid ;
+  display: block;
+  margin: auto;
+  
+}
+
+h1, h2, h3 { 
+  font-family: sans-serif;
+  text-align: center;
+}
+.lists{
+  text-align: left;
+  font-size: larger;
+}
+
+.link {
+  font-size: medium;
+}
+ol {
+  color:green;
+  text-align: left;
+}
+ul {
+  color:red ;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+img {
+  height: auto;
+  max-width: 70%;
+}
