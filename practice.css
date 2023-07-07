@@ -1,6 +1,7 @@
 * {
   background-color: bisque;
-  padding: 5px 10px 10px 5px;
+  padding: 5%;
+  margin: 5%;
   box-sizing: border-box;
 }
 
@@ -29,9 +30,13 @@ h1, h2, h3 {
 ol {
   color:rgb(55, 161, 55);
   text-align: left;
+  font-size: xx-large;
+  line-height: 5%;
 }
 ul {
   color:rgb(194, 117, 16);
+  font-size: xx-large;
+  line-height: 5%;
 }
 .grid-container {
   display: grid;
@@ -67,5 +72,9 @@ img {
 }
 .dogfacts {
   color: black;
-  font-size: x-large;
+  font-size: xx-large;
+  line-height: 5%;
+}
+p{
+  font-size: large;
 }
